@@ -20,7 +20,7 @@ import lazyWait from '@netsells/storycap-lazy-wait';
 addParameters({
     screenshot: {
         waitFor() {
-        	return lazyWait();
+            return lazyWait();
         },
     },
 });
@@ -32,14 +32,14 @@ If you already have logic in this method you can return a `Promise.all`:
 addParameters({
     screenshot: {
         waitFor() {
-        	const myWaitFunctionality = new Promise((resolve) => {
-        		// ...logic
-        	})
+            const myWaitFunctionality = new Promise((resolve) => {
+                // ...logic
+            })
 
-        	return Promise.all([
-        		myWaitFunctionality,
-        		lazyWait(),
-    		]);
+            return Promise.all([
+                myWaitFunctionality,
+                lazyWait(),
+            ]);
         },
     },
 });
