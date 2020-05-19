@@ -1,0 +1,16 @@
+{
+	"name": "@netsells/storycap-lazy-wait",
+	"version": "0.1.0",
+	"main": "index.js",
+	"license": "MIT",
+	"description": "Helper function to ensure story images have loaded before capturing the story",
+	"repository": {
+		"url": "https://github.com/netsells/storycap-lazy-wait"
+	},
+	"author": {
+		"name": "Sam Turrell",
+		"url": "https://samturrell.co.uk",
+		"email": "sam.turrell@netsells.co.uk"
+	},
+	"homepage": "https://github.com/netsells/storycap-lazy-wait"
+}
